@@ -1,0 +1,28 @@
+{
+  "name": "Ecommerce-Application-Back-End-",
+  "version": "1.0.0",
+  "description": "Finished homework assignment for week 13: E-Commerce Application (Back-End).",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevorwiegand92/Ecommerce-Application-Back-End-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trevorwiegand92/Ecommerce-Application-Back-End-/issues"
+  },
+  "homepage": "https://github.com/trevorwiegand92/Ecommerce-Application-Back-End-#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "inquirer": "^8.1.1",
+    "mysql": "^2.18.1",
+    "sequelize": "^6.6.4"
+  }
+}
