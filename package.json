@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,11 +20,13 @@
     "url": "https://github.com/trevorwiegand92/Ecommerce-Application-Back-End-/issues"
   },
   "homepage": "https://github.com/trevorwiegand92/Ecommerce-Application-Back-End-#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
   "dependencies": {
-    "dotenv": "^10.0.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "inquirer": "^8.1.1",
-    "mysql": "^2.18.1",
-    "sequelize": "^6.6.4"
+    "mysql2": "^2.2.1",
+    "sequelize": "^6.3.5"
   }
 }
